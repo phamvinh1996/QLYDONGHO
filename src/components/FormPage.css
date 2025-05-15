@@ -1,0 +1,154 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 250px;
+  font-size: 14px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background-color: #DEB887;
+}
+
+table {
+  width: 89%;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-left: 6%;
+}
+
+table th {
+  background-color: #808080;
+  color: white;
+  padding: 10px;
+}
+
+table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+table img {
+  border-radius: 8px;
+}
+
+.actions button {
+  margin-right: 5px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.actions .edit-btn {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.actions .edit-btn:hover {
+  background-color: #e0a800;
+}
+
+.actions .delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.actions .delete-btn:hover {
+  background-color: #c82333;
+}
+
+.cancel-btn {
+  background-color: #6c757d !important;
+  margin-left: 10px;
+}
+
+.cancel-btn:hover {
+  background-color: #5a6268 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+/* Định dạng chung cho các nút */
+button {
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  margin: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #6c757d;
+  color: white;
+}
+
+/* Nút sửa */
+.edit-btn {
+  background-color: #4CAF50; /* Màu xanh lá */
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #45a049; /* Màu xanh lá đậm khi hover */
+}
+
+/* Nút xóa */
+.delete-btn {
+  background-color: #f44336; /* Màu đỏ */
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #da190b; /* Màu đỏ đậm khi hover */
+}
+
+/* Chỉnh sửa kiểu dáng của các nút khi có focus */
+button:focus {
+  outline: none; /* Xóa đường viền focus */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
